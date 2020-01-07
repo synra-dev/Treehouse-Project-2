@@ -8,7 +8,7 @@ const list = ul.children;
 const limit = 10;
 let dPage = 1;
 let pageActive;
-let pDiv;
+
 
 /*** 
   create a function that will help in creating an html element
@@ -21,7 +21,6 @@ function create(element,arrAtt,arrVal) {
   }
   return elem;
 }
-
 
 function showPage(list,page) {
     const startList = (page * limit) - limit;
